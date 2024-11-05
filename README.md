@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+![image](https://github.com/user-attachments/assets/aaa89322-2351-484c-b742-868d20b422dd)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+안녕하세요, 소프트웨어 에이전시 주식회사 더컴퍼스입니다.
+2024 국민대학교 동계 인턴쉽 프로그램에 지원해주셔서 감사드립니다.
+오늘부터 24년 11월 6일까지, 챌린지 과제를 통해 여러분들의 잠재력을 확인하고자 합니다!
+원활한 진행을 위해 과제 전형에 대해 다음과 안내를 드립니다.
 
-## Available Scripts
+## common 폴더
 
-In the project directory, you can run:
+- common 폴더 안에 있는 파일들은 **공통과제** 입니다. 모두 풀어주시길 바랍니다.
+- 사용 가능한 언어는 **JS**로 한정하겠습니다.
 
-### `npm start`
+## front, back
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. 프론트 업무에 지원하시고 싶은 경우, front 폴더를 참고
+2. 백엔드 업무에 지원하시고 싶은 경우, back 폴더를 참고
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 제출 기한
 
-### `npm test`
+- **2024-11-06 23시 59분 까지**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 제출 양식
 
-### `npm run build`
+- 제목: {지원 업무}\_{성함}\_{학번}
+  ex) 프론트\_홍길동\_20220101
+- 내용: 작업하신 내역을 github 에 업로드하여 조회할 수 있는 링크 첨부
+  ex) https://github.com/test/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 제출처
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- hr@the-compass.kr
