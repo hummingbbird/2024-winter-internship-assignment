@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import "./ProjectForm.css";
+import "../styles/ProjectForm.css";
 
 export default function ProjectForm({ handleAdd }) {
   const [title, setTitle] = useState("");

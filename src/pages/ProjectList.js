@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./ProjectList.css";
+import "../styles/ProjectList.css";
 import ProjectForm from "./ProjectForm";
 
 const ProjectList = ({ projects, handleAdd }) => {

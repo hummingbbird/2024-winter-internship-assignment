@@ -1,0 +1,43 @@
+.taskformcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+  width: 100%;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.priority {
+  width: 100%;
+  padding: 4px 0px;
+  font-size: 17px;
+}
+
+select {
+  width: 100%;
+  font-size: 17px;
+  padding: 8px 0px 8px 10px;
+}
+
+option {
+  width: 100%;
+  font-size: 17px;
+  padding: 8px 0px 8px 10px;
+}

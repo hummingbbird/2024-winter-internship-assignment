@@ -1,0 +1,101 @@
+.ProjectDetailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  min-width: 300px;
+}
+
+.semititle {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.task {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: end;
+  align-items: start;
+  height: 40px;
+  padding-bottom: 15px;
+}
+
+.button {
+  width: 100%;
+  justify-content: right;
+}
+
+.deleteDiv {
+  display: flex;
+  width: 60%;
+  justify-content: right;
+  padding-bottom: 15px;
+}
+.deletebutton {
+  background-color: red;
+  border-color: white;
+  color: white;
+}
+.description {
+  border: 1px solid #a8a8a8;
+  border-radius: 30px;
+  width: 60%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.table table {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.table th,
+.table td {
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  font-size: 20px;
+  text-align: center;
+}
+
+.table td {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table td:hover {
+  background-color: #f1f1f1;
+}

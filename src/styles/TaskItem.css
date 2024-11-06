@@ -1,0 +1,39 @@
+.taskitemcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 8px; 
+  padding: 16px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.taskitemcontainer.done {
+  background-color: rgb(221, 221, 221);
+}
+
+
+.taskitemcontainer.overdue {
+  background-color: rgb(255, 186, 186);
+}
+
+.taskitemcontainer.soon {
+  border-color: orange;
+}
+
+.btndiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.deletebtn {
+  background-color: rgb(255, 86, 86);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 15px;
+  width: 50%;
+}
+

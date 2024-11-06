@@ -1,57 +1,81 @@
 import { useState, useRef } from "react";
+import "../styles/TaskForm.css";
 
-export default function TaskForm() {
-  const id = useRef(0);
+export default function TaskForm({ handleAddTask, projectId, closeForm }) {
+  const taskid = useRef(0);
   const [task, setTask] = useState({
-    pjId: 1,
-    id: "1",
+    pjId: projectId,
+    id: taskid.current,
     title: "",
     description: "",
     priority: "middle",
-    dueDate: new Date().now,
+    dueDate: "",
     status: "in-progress",
   });
 
-  const handleChangeState = (e) => {};
+  const handleChangeTask = (e) => {
+    setTask({ ...task, [e.target.name]: e.target.value });
+  };
 
-  const handleSubmit = () => {};
+  const handleSubmit = () => {
+    handleAddTask(projectId, task);
+    closeForm();
+    setTask({
+      pjId: projectId,
+      title: "",
+      description: "",
+      priority: "middle",
+      dueDate: "",
+      status: "in-progress",
+    });
+  };
 
   return (
-    <div className="container">
-      <div className="title">
-        제목
-        <input value={task.title} onChange={handleChangeState} />
-      </div>
-      <div>
-        설명
-        <textarea
-          value={task.description}
-          className="desc"
-          onChange={handleChangeState}
+    <div className="taskformcontainer">
+      <div className="input">
+        테스크 제목
+        <input
+          type="text"
+          name="title"
+          placeholder="제목"
+          value={task?.title}
+          onChange={handleChangeTask}
         />
       </div>
-      <div>
+      <div className="input">
+        테스크 설명
+        <textarea
+          name="description"
+          placeholder="설명"
+          value={task?.description}
+          onChange={handleChangeTask}
+        ></textarea>
+      </div>
+      <div className="input">
         우선순위
         <select
+          name="priority"
           className="priority"
-          value={task.priority}
-          onChange={handleChangeState}
+          value={task?.priority}
+          onChange={handleChangeTask}
         >
           <option value="high">high</option>
           <option value="middle">middle</option>
           <option value="low">low</option>
         </select>
       </div>
-      <div>
+      <div className="input">
         마감일
-        <input value={task.dueDate} onChange={handleChangeState} />
+        <input
+          type="text"
+          name="dueDate"
+          value={task?.dueDate}
+          placeholder="ex) 2024-10-20"
+          onChange={handleChangeTask}
+        />
       </div>
-      <div>
-        진행상황
-        <input value={task.status} onChange={handleChangeState} />
-      </div>
-      <div>
-        <button onClick={handleSubmit}>태스크 추가</button>
+      <div className="buttonDiv">
+        <button onClick={handleSubmit}>추가하기</button>
       </div>
     </div>
   );
