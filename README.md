@@ -1,31 +1,74 @@
 ![image](https://github.com/user-attachments/assets/aaa89322-2351-484c-b742-868d20b422dd)
 
-안녕하세요, 소프트웨어 에이전시 주식회사 더컴퍼스입니다.
-2024 국민대학교 동계 인턴쉽 프로그램에 지원해주셔서 감사드립니다.
-오늘부터 24년 11월 6일까지, 챌린지 과제를 통해 여러분들의 잠재력을 확인하고자 합니다!
-원활한 진행을 위해 과제 전형에 대해 다음과 안내를 드립니다.
+## ⚡️ 더컴퍼스 2024 동계 인턴 인턴쉽 챌린지 
+### 1. 프로젝트 폴더 구조
+* 공통 과제의 경우 별도의 폴더(common)에 정리했습니다.
+```
+📦src
+ ┣ 📂common //공통 과제
+ ┃ ┣ 📂first-algorithm
+ ┃ ┃ ┣ 📜first-algorithm.md
+ ┃ ┃ ┗ 📜friendRecommendations.js
+ ┃ ┗ 📂second-algorithm
+ ┃ ┃ ┣ 📜isEmpty.js
+ ┃ ┃ ┗ 📜second-algorithm.md
+ ┣ 📂pages
+ ┃ ┣ 📜Home.js
+ ┃ ┣ 📜ProjectDetail.js
+ ┃ ┣ 📜ProjectForm.js
+ ┃ ┣ 📜ProjectList.js
+ ┃ ┣ 📜TaskForm.js
+ ┃ ┗ 📜TaskItem.js
+ ┣ 📂styles // 스타일 적용을 위한 폴더
+ ┃ ┣ 📜ProjectDetail.css
+ ┃ ┣ 📜ProjectForm.css
+ ┃ ┣ 📜ProjectList.css
+ ┃ ┣ 📜TaskForm.css
+ ┃ ┗ 📜TaskItem.css
+ ┣ 📜App.css
+ ┣ 📜App.js
+ ┣ 📜App.test.js
+ ┣ 📜index.css
+ ┣ 📜index.js
+ ┣ 📜logo.svg
+ ┣ 📜reportWebVitals.js
+ ┗ 📜setupTests.js
+```
+<br>
 
-## common 폴더
+### 2. 컴포넌트 별 주요 기능
+`App.js`: 페이지 라우팅 및 프로젝트 데이터 상태 관리
+<br/>
+`ProjectList.js`: 프로젝트 목록 표시
+<br/>
+`ProjectForm.js`: 프로젝트 생성
+<br/>
+`ProjectDetail.js`: 프로젝트 세부 정보 및 tasks 목록 표시, 프로젝트 삭제
+<br/>
+`TaskItem.js`: task 컴포넌트 표시, task 삭제, 마감일 및 상태 표시
+<br/>
+`TaskForm.js`: task 생성
+<br/>
+<br/>
 
-- common 폴더 안에 있는 파일들은 **공통과제** 입니다. 모두 풀어주시길 바랍니다.
-- 사용 가능한 언어는 **JS**로 한정하겠습니다.
+### 3. 데이터 구조
+* 백엔드 파트의 과제를 참고하여 mock data의 구조를 설정했습니다. 
+```
+// project
+{
+  "id": "1",
+  "title": "프로젝트 제목",
+  "description": "프로젝트 설명",
+  "tasks": [] // task id list
+}
+```
 
-## front, back
-
-1. 프론트 업무에 지원하시고 싶은 경우, front 폴더를 참고
-2. 백엔드 업무에 지원하시고 싶은 경우, back 폴더를 참고
-
-## 제출 기한
-
-- **2024-11-06 23시 59분 까지**
-
-## 제출 양식
-
-- 제목: {지원 업무}\_{성함}\_{학번}
-  ex) 프론트\_홍길동\_20220101
-- 내용: 작업하신 내역을 github 에 업로드하여 조회할 수 있는 링크 첨부
-  ex) https://github.com/test/
-
-## 제출처
-
-- hr@the-compass.kr
+```
+// task
+{
+  "id": "1",
+  "title": "프로젝트 제목",
+  "description": "프로젝트 설명",
+  "tasks": [] // task id list
+}
+```
