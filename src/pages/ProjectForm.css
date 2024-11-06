@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+  width: 100%;
+  gap: 20px;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: col;
+  width: 60%;
+  justify-content: center;
+}
+
+button {
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 15px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 4px;
+  width: 50%;
+  height: 100%;
+}
+
+input {
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 0px 8px 10px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 0px 8px 10px;
+}
